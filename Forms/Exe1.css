@@ -1,0 +1,75 @@
+body {
+   width: 800px;
+    
+
+}
+main {
+   
+    margin-left: 400px;
+}
+fieldset {
+    padding-top: 10px;
+    padding-left: 10px;
+
+  }
+  
+form {
+    border: 1px solid blue;
+    padding: 10px;
+}
+label {
+    width: 200px;
+   
+}
+
+
+.Forms {
+    
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.button1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+       
+}
+
+
+.exe {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.Form-Enfants{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .Enfants {
+    width: 200px;
+  }
+
+legend {
+    text-align: center;
+  }
+  section{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+  
+h4{
+    text-align: center;
+}

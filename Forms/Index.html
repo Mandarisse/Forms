@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Exe1.css">
+    <title>Forms</title>
+</head>
+<body>
+    <main>
+        <form>
+            <div class="Forms">
+                <label for="nom" class="nom">Nom:</label>
+                <input type="text" name="nom">
+            </div>
+            <div class="Forms">
+                <label for="prénom" class="prénom">Prénom:</label>
+                <input type="text"  name="prénom">
+            </div>
+            <div class="Forms">
+                <label for="Nombre-de-jours" class="Nombre-de-jours">Nombre de jours:</label>
+                <input type="text"  name="Nombre de jours">
+            </div>
+            <div class="Forms">
+                <label for="date-de-Naissance" class="date-de-Naissance">date de Naissance:</label>
+                <input type="date" name="date-de-Naissance">
+            </div>
+            <div class="Forms">
+                <label for="pss" class="pss">Mot de passe:</label>
+                <input type="password" name="pss">
+            </div>
+            <div class="Forms">
+                <input type="submit" class="button1" value="Submit">
+                <input type="reset" class="button1" value="reset">
+            </div>
+        </form>
+        <form>
+            
+                <section>
+                <fieldset>
+                    <legend>Veuillez choisir la meilleure méthode pour vous contacter:</legend>
+          
+                    <section class="exe">
+                      <div>
+                        <input type="radio" >
+                        <label for="email">Email</label>
+                      </div>
+          
+                      <div>
+                        <input type="radio" />
+                        <label for="Tel">Téléphone</label>
+                      </div>
+          
+                      <div>
+                        <input type="radio" />
+                        <label for="courrier">Courrier</label>
+                      </div>
+                    </section>
+          
+                    <div class="exe">
+                      <button>Envoyer</button>
+                    </div>
+                  </fieldset>
+                </section>
+          
+            
+        </form>
+        <form>
+            <h4>Veuillez remplir vos information personneelles:</h4>
+            <div class="Forms">
+               <label>Nom:</label>
+               <input type="text" value="Mr.Mme">
+            </div>
+            <div class="Forms">
+                <label>Prénom:</label>
+                <input type="text" value="Mr.Mme">
+            </div>
+        
+            <div class="Form-Enfants">
+                <div class="Enfants">
+                  <label >Avec Enfants</label>
+                  <input type="checkbox">
+                </div>
+                <input type="number" max="10" min="0" value="4">
+              </div>
+            </div>
+            </div>
+            
+            <div class="Forms">
+                <label>Vous étes de quelle ville ?</label>
+                <select>
+                    <option value="Agadir">Agadir</option>
+                    <option value="Marrakech">Marrakech</option>
+                    <option value="Casablanca">Casablanca</option>
+                    <option value="fés">fés</option>
+                    <option value="Tiznit">Tiznit</option>
+                    <option value="Tanger">Tanger</option>
+                    <option value="Meknes">Meknes</option>
+                  </select>
+            </div>
+            <div class="Forms">
+                <label>Email</label>
+                <input type="email">
+            </div>
+        </form>
+        <form>
+            <h4>Votre Demande</h4>
+               <div class="exe">
+                  <textarea cols="45" rows="5"></textarea>
+                  <br>
+               </div>
+                <div class="exe">
+                   <input type="submit" value="Envoyer" >
+               </div>
+        </form>
+
+    </main>
+</body>
+</html>
